@@ -9,6 +9,14 @@ Because Vite is faster than CRA with webpack. Besides, CRA is considered to be d
 ## Why I didn't use any css preprocessors/libs like scss/tailwind/styled-components?
 
 Because styling isn't the thing in this particular case since esentially it consists of a few components. CSS-modules will do.
+Besides, Vite provides some default nice styles for buttons, links etc.
+
+## Some info about tools that were used for building this monster
+
+- `Vite` for scaffolding the project;
+- `electron-store` for storing data persistently;
+- `typescript`;
+- nothing more comes to my mind actually. A lot of stuff was shipped by vite by default. `package.json` isn't rich with fancy packages.
 
 ## How to run this project locally?
 
@@ -26,10 +34,12 @@ npm i
 npm run dev
 ```
 
-- for build:
+- for building:
 
 ```bash
 npm run build
 ```
 
-after build you can find binary file in `/release` folder (not sure what directory's gonna be displayed on your PC inside `release` folder, because it depends on your OS. E.g. for MacOS Silicon it's `/release/0.0.0/mac-arm64/text-highlighter.app/Contents/MacOS/text-highlighter`)
+after build you can find binary file in `/release` folder (not sure what directory's gonna be displayed on your PC inside `release` folder, because it depends on your OS. E.g. for MacOS with M1 it's `/release/0.0.0/mac-arm64/text-highlighter.app/Contents/MacOS/text-highlighter`)
+
+Happy hacking!
