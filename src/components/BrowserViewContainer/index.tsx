@@ -17,6 +17,9 @@ export const BrowserViewContainer = ({
   urlInputRef,
   isUrlLoadingError,
 }: Props) => {
+  // not the best way for controlling input since each keystroke
+  // invokes rerender but I didn't have enough time to implement it properly,
+  // maybe even using react-hook-form or smth
   return (
     <div className={classes.container}>
       <input
