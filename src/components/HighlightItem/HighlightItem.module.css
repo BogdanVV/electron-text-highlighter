@@ -1,0 +1,41 @@
+.container {
+    border: 1px solid #646cff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.container:hover {
+    background-color: #27374D;
+}
+
+.deleteButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    flex-grow: 0;
+    font-size: 12px;
+    border-radius: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+
+}
+
+.info {
+    font-size: 12px;
+}
+
+.text {
+    font-style: italic;
+}
+
+.url {
+    color: #646cff;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.container {
+    width: 50%;
+    min-width: 595px;
+    height: 60px;
+    display: flex;
+    gap: 10px;
+    padding: 10px 10px 10px 0;
+
+}
+
+.urlInput {
+    flex: 1;
+    height: 40px;
+    padding: 0 16px;
+}
+
+.urlInputError {
+    border: 1px solid red;
+}
